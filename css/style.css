@@ -156,6 +156,15 @@ footer {
   footer {
     width: 80%;
   }
+  .f-schedule {
+    display: none;
+  }
+  #give {
+    margin-left: 20%;
+  }
+  #btn-donate {
+    margin-left: 35%;
+  }
 }
 .hero {
   background: url("../../../images/Screenshot from 2024-11-08 10-29-15.png");
