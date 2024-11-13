@@ -53,13 +53,15 @@
             </div> -->
 
 
-            <form class="input-group">
-                <input id="input-s name" type="text" class="input-field" placeholder="Name" required>
+            <form class="input-group" id="form">
+                <div><input id="input-s name" type="text" class="input-field" placeholder="Name" required>
+                <span  style="color: red;" id="error"></span></div>
                 <input id="input-s email" type="email" class="input-field" placeholder="email" required>
                 <input id="input-s password" type="password" class="input-field" placeholder="Enter Password" required>
+                <span id="pass-error"></span>
                <div class="my-div"> 
                 <p class="if "> If already have an account?</p>
-                <button type="submit" class="submit-btn login" href="login.html">log in</button>
+                <button type="submit" class="submit-btn login"><a  href="login.html">log in</a></button>
             </div>
                 <button type="submit" class="submit-btn">Sign Up</button>
             </form>
