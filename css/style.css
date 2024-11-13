@@ -154,19 +154,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   footer {
-    width: 100%;
-  }
-  .f-flex {
-    gap: 40px;
-    font-size: 10px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-  .f-logo img {
-    display: none;
-  }
-  .ff-icon img {
-    display: none;
+    width: 80%;
   }
 }
 .hero {
@@ -873,6 +861,10 @@ span-l {
   position: absolute;
 }
 
+footer {
+  margin-top: 40%;
+}
+
 .form-box-s {
   width: 380px;
   height: 480px;
@@ -977,7 +969,7 @@ span-s {
 }
 
 @media screen and (max-width: 600px) {
-  .form-box-s {
-    padding: 2px;
+  footer {
+    margin-top: 130%;
   }
 }

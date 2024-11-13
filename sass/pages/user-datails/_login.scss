@@ -11,6 +11,9 @@
     background-size: cover;
     position: absolute;
 }
+footer{
+    margin-top: 40%;
+}
 
 .form-box-s{
     width: 380px;
@@ -121,7 +124,7 @@ span-s{
 
 // MEDIA QUERIE
 @media screen and (max-width: 600px){
-    .form-box-s{
-        padding: 2px;
+    footer{
+        margin-top: 130%;
     }
 }

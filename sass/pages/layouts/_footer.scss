@@ -89,26 +89,9 @@ footer{
  // MEDIA QUARIES
  @media screen and (max-width: 600px){
   footer{
-width: 100%;
+width: 80%;
 
   }
-  .f-flex{
-    gap:40px;
-    font-size: 10px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
 
-  .f-logo{
-    img{
-     display: none;
-    }
-  }
-
-  .ff-icon{
-    img{
-      display: none;
-    }
-  }
 
  }
