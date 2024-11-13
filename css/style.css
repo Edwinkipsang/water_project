@@ -191,6 +191,13 @@ footer {
   font-weight: 900;
 }
 
+.water {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 30px;
