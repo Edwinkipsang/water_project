@@ -202,6 +202,12 @@ footer {
 }
 .testimon {
   background-color: #0A91FF;
+  width: 100%;
+}
+
+.sponsor {
+  background-color: #FAA616;
+  width: 100%;
 }
 
 @media screen and (max-width: 600px) {
