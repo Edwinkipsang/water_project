@@ -208,6 +208,14 @@ footer {
 .sponsor {
   background-color: #FAA616;
   width: 100%;
+  justify-content: center;
+  padding-left: 45%;
+}
+
+h4 {
+  align-items: center;
+  justify-content: center;
+  margin-left: 3%;
 }
 
 @media screen and (max-width: 600px) {
