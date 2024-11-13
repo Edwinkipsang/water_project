@@ -5,6 +5,9 @@
   background-color: $primary-color;
   width:100%;
 }
+.sec{
+  margin-left: 35%;
+}
 
 .sponsor{
   background-color: $secondary-color;
@@ -20,6 +23,16 @@ h4{
 .together{
   margin-left: 35%;
   margin-top: 30px;
+}
+// .project{
+//   margin-left: -60%;
+// }
+.clean{
+  display: flex;
+  gap: 30px;
+
+  margin-top: 30px;
+  justify-content: center;
 }
 
 
