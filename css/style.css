@@ -209,6 +209,36 @@ footer {
   margin-left: 35%;
 }
 
+.education {
+  border: 2px solid #FAA616;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.education:hover {
+  box-shadow: 3px 3px #0A91FF;
+}
+
+.hunger {
+  border: 2px solid #FAA616;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.hunger:hover {
+  box-shadow: 3px 3px #0A91FF;
+}
+
+.health {
+  border: 2px solid #FAA616;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.health:hover {
+  box-shadow: 3px 3px #0A91FF;
+}
+
 .sponsor {
   background-color: #FAA616;
   width: 100%;
