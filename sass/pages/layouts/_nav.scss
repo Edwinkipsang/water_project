@@ -1,0 +1,86 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+  
+nav {
+   display: flex;
+  //  justify-content: space-betw;
+  gap: 150px;
+   align-items: center;
+   width: 95%;
+    margin: 0 auto;
+  }
+
+  
+  .container{
+    width:100%
+  }
+
+  .nav-left{
+    cursor: pointer;
+  }
+  // .fa-house{
+  //   position: fixed;
+  // }
+  .nav-center {
+    ul {
+    display: flex;
+    gap:  100px;
+   
+      li {
+        a {
+          font-size: 20px;
+          padding: 10px;
+          display: inline-block;
+          color: black;
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+
+  .nav-right{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #fa-bars{
+    margin-top: -2em;
+
+    display: none;
+
+    display:none
+
+
+  }
+  .background-image-login{
+    background-image: url("../../../images/Screenshot\ from\ 2024-11-08\ 10-29-15.png");
+    // background-image: ("https://github.com/Edwinkipsang/Uptown-dishes/blob/master/images/darkhome.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+  }
+
+
+
+// MEDIA QUERIE
+@media screen and (max-width: 600px){
+    .nav-center{
+        display: none;
+    }
+
+   .nav-right{
+    img{
+      display: none;
+    }
+   }
+
+
+}
+.logo-words{
+  display: none;
+}

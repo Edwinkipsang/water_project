@@ -1,0 +1,114 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+
+.f-container{
+  margin: 0 auto;
+    // display: flex;
+    // margin-top: 3em;
+    // justify-content: space-between;
+    // align-items: center;
+    border-top: 3px solid orange;
+    background-color: $primary-color;
+    padding: 1px 50px;
+    width: 130%;
+    margin-left: -15%;
+   height: 40vh;
+}
+#give{
+  margin-top: 10px;
+  margin-left: 43%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+  // border: 2px solid orange;
+  width:220px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  // background-color: orange;
+
+}
+#links p{
+  color:white;
+  margin-top: 20px;
+  align-items: center;align-content: center;
+  justify-content: center;
+}
+
+
+.f-list{
+    color: white;
+    margin-top: 0.5em;
+
+    li {
+        a {
+          padding: 5px;
+          display: inline-block;
+          &:hover {
+            color: orange;
+          }
+        }
+      }
+    
+}
+
+
+
+h3{
+    color: orange;
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.f-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 6em;
+    align-items: center;
+}
+#btn-donate{
+  justify-content: center;
+  margin-left: 47%;
+  background-color: $secondary-color;
+  border: 2px solid orange;
+  border-radius: 5px;
+  margin-top: 20px;
+  &:hover{
+    background-color: $primary-color;
+    border: 2px solid $primary-color;
+
+  }
+
+}
+
+
+ // MEDIA QUARIES
+ @media screen and (max-width: 600px){
+  footer{
+width: 100%;
+
+  }
+  .f-flex{
+    gap:40px;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .f-logo{
+    img{
+     display: none;
+    }
+  }
+
+  .ff-icon{
+    img{
+      display: none;
+    }
+  }
+
+ }

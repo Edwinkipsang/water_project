@@ -1,0 +1,40 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.hero{
+    background: url("../../../images/Screenshot\ from\ 2024-11-08\ 10-29-15.png");
+    width:100%;
+    background-size:cover ;
+    height: 80vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+    // margin-left: ;
+}
+.hero-content{
+    margin-left: 35%;
+    font-size: 50px;
+    color: white;
+    padding-top: 17%;
+    font-weight: 900;
+}
+.hero-content-p{
+    // margin-left: 42%;
+    font-size: 30px;
+    color: white;
+    // padding-top: 17%;
+    font-weight: 900;
+}
+// MEDIA QUARIES
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 30px;
+    }
+
+    .time-location-out{
+        margin-top: 1em;
+        font-size: 10px;
+    }
+}
+
+

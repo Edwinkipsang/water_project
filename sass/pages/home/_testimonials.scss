@@ -1,0 +1,25 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+
+.testimon{
+  background-color: $primary-color;
+}
+
+
+
+  // MEDIA QUARIES
+  @media screen and (max-width: 600px){
+    .what-abt{
+      h3{
+        font-size: 20px;
+        p{
+          font-size: 3px;
+        }
+      }
+    }
+    
+    .wrapper{
+      width: 100%;
+        flex-direction: column;
+    }
+  }
