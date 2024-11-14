@@ -60,6 +60,11 @@ nav {
   display: none;
 }
 
+.harmburger {
+  display: block;
+  cursor: pointer;
+}
+
 .background-image-login {
   background-image: url("../../../images/Screenshot from 2024-11-08 10-29-15.png");
   background-repeat: no-repeat;
