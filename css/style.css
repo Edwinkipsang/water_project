@@ -863,6 +863,30 @@ span-l {
   color: black;
 }
 
+.todo-container {
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #FAA616;
+}
+
+li button {
+  background-color: #0A91FF;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+li button:hover {
+  background-color: green;
+}
+
 .l-hero-s {
   height: 100%;
   width: 100%;
@@ -982,15 +1006,4 @@ span-s {
   footer {
     margin-top: 130%;
   }
-}
-.todo-container {
-  padding: 20px;
-  border-radius: 8px;
-  width: 300px;
-  text-align: center;
-}
-
-input {
-  width: 80%;
-  padding: 10px;
 }
