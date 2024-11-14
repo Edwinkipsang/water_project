@@ -989,3 +989,8 @@ span-s {
   width: 300px;
   text-align: center;
 }
+
+input {
+  width: 80%;
+  padding: 10px;
+}
