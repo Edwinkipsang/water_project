@@ -203,11 +203,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 30px;
-  }
-  .time-location-out {
-    margin-top: 1em;
-    font-size: 10px;
+    font-size: 3px;
   }
 }
 .testimon {
@@ -986,4 +982,10 @@ span-s {
   footer {
     margin-top: 130%;
   }
+}
+.todo-container {
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
 }

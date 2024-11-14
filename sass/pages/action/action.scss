@@ -1,0 +1,9 @@
+@use "../../utilities/mixins" as *;
+@use "../../utilities/variables" as *;
+
+.todo-container{
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
